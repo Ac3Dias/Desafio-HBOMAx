@@ -1,0 +1,124 @@
+
+#head{
+display: flex;
+position: relative;
+height: 6vh;
+width: 100%;
+background-color: #000000;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.linkentrar{
+    display: flex;
+    position: absolute;
+    font-family: raleway;
+    color: rgb(244, 250, 250);
+    left:75vw;
+    top:18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; 
+
+}
+.divisoria{
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 50vw;
+    background-image:linear-gradient(45deg, black, #9b34ef, #0b0b5d);
+    top:85vh;
+    left:25vw;
+}
+.logos {
+    display: flex;
+    position: absolute;
+    top:10vh;
+    left: 30vw;
+}
+.h1{
+    display: flex;
+    font-size: 2rem;
+    position: absolute;
+    color: #ffffff;
+    font-family: raleway;
+    font-weight: bold;
+    top:25vh;
+    left:30vw;
+   
+}
+.p1{
+    filter: brightness(2);
+    position: absolute;
+    left: 50px;
+    top:12vh;
+    padding:5px 50px;
+}
+.p2 {
+    filter: brightness(2);
+    position: absolute;
+    left: 15vw;
+    top:40vh;
+    margin: 0;
+}
+
+
+.linkentrar2{
+    display: flex;
+    position: absolute;
+    font-family: raleway;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration:none;
+    background-color: #9b34ef;
+    border-radius: 30px;
+    padding: 5px 30px;
+    color: rgb(244, 250, 250);
+    left:84vw;
+    top:14px;
+    font-weight: bold;
+    
+}
+.linkentrar2:hover{
+    background-image: -webkit-linear-gradient(white);
+    filter: brightness(1.5);
+    color: #ffffff;
+    text-decoration:none;
+}
+
+
+.logo {
+width: 10vw;
+height: 3vh;
+position: absolute;
+padding: 10px;   
+margin-left: 10px;
+
+}
+#Section1{
+height:100vh;
+width: 100%;
+animation-name: animação;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+transition: 1s;
+filter: brightness(0.3);
+}
+
+
+
+
+
+@keyframes animação {
+    0% {
+        background: #000;
+    }
+    50%{
+        background: #9b34ef;
+    }
+    100% {
+        background: #0b0b5d;
+    }
+}
